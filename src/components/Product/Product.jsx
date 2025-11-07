@@ -14,6 +14,7 @@ const Product = () => {
 
   useEffect(() => {
     getProduct();
+    // eslint-disable-next-line
   }, []);
 
   const getProduct = async () => {
